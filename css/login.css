@@ -1,0 +1,60 @@
+.login{  
+        
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.login-titulo{
+    margin-top: 2.5rem;        
+    text-align: center;
+    font-size: 1.25rem;    
+    padding-bottom: 1rem;
+}
+.login-correo{    
+    display: flex;
+    flex-direction: column;    
+    width: 50%;    
+    color: #a7a7a7;
+    background-color: white;
+    border: 1px solid a7a7a7;
+    border-radius: 0.5rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    margin-bottom: 2rem;
+    
+}
+.login-correo-imput{
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    font-size: 1.25rem;
+    border-style: hidden;        
+}
+.login-contraseña{    
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+    color: #a7a7a7;
+    background-color: white;
+    border: 1px solid a7a7a7;
+    border-radius: 0.5rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;    
+    
+}
+.login-contraseña-imput{
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    font-size: 1.25rem;
+    border-style: hidden;        
+}
+.login-btn{    
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;    
+    background-color: #2a7ae4;    
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+    margin-top: 1rem;
+    border: 1px solid #2a7ae4;
+    margin-bottom: 2.5rem;        
+    }

@@ -1,0 +1,122 @@
+.contacto{
+    display: grid;
+    grid-template-rows:100%;
+    grid-template-columns: 15% 35% 50%;
+   
+    background-color: #eaf2fd;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+.contacto-icono{    
+    grid-column: 1;
+    font-size: 2rem;
+}
+.contacto-icono-contenedor{    
+    display: flex;
+    flex-direction: row;          
+    justify-content: center;
+}
+.contacto-icono-contenedor-textoAzul{
+    color: #2a7ae4;    
+}
+.contacto-icono-contenedor-imagen{
+    width: 50px;
+    height: 40px;
+}
+.contacto-links{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    padding-left: 25%;
+    
+}
+.contacto-links-link{
+    text-decoration: none;
+    color: black;
+}
+.contacto-form{
+    grid-column: 3;   
+}
+.contacto-form-titulo{
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+.contacto-form-nombre{    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: #a7a7a7;
+    background-color: white;
+    border: 1px solid a7a7a7;
+    border-radius: 1rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+}
+.contacto-form-nombre-imput{
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    font-size: 1.25rem;
+    border-style: hidden;        
+}
+
+.contacto-form-mensaje{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: #a7a7a7;
+    background-color: white;
+    border: 1px solid a7a7a7;
+    border-radius: 1rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;    
+    margin-bottom: 2rem;
+}
+.contacto-form-mensaje-txt{
+    border-style: hidden;    
+}
+.contacto-form-btn{    
+    justify-content: center;
+    margin-top: 5rem;
+    text-decoration: none;        
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #2a7ae4;
+    background-color: #2a7ae4;
+}
+@media only screen and (max-width: 1024px){
+    .contacto{        
+        display: grid;
+        grid-template-rows:20% 80%;
+        grid-template-columns: 50% 50%;
+        padding-bottom: 8rem;        
+    }
+    .contacto-form{
+        max-width: 50rem;
+    }
+    .contacto-icono{    
+        grid-column: 1;
+    }
+    .contacto-links{
+        grid-column: 1;
+    }
+    .contacto-form{
+        grid-column: 2;   
+    }
+}
+@media only screen and (max-width: 620px){
+    .contacto{
+        justify-content: center;
+        grid-template-rows: 4rem  20rem  15rem;
+        grid-template-columns: 20rem;       
+    }
+    .contacto-form{
+        grid-column: 1;
+        grid-row: 3;   
+    }
+    .contacto-links{
+        justify-content: space-around;
+    }
+}
